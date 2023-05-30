@@ -97,7 +97,7 @@ Clone this repository.
 ### Find a Youtube video url and input it in the text box. Ask your question in the question text box.
 
 <img width="285" alt="samplevideo" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/01e24da5-1ce8-48ce-95cf-0e6a9f36c211">
-URL: https://www.youtube.com/watch?v=f20wXjWHh2o
+- URL: https://www.youtube.com/watch?v=f20wXjWHh2o
 
 #### Sample Question 1
 
