@@ -69,7 +69,7 @@ Clone this repository.
 
 1. Input a product you want to research about and the location you would like to launch the product.
 
-
+<img width="826" alt="ai-research1" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/e1c82afe-dc36-4da1-95eb-5bfd70347ddb">
 
 2. Wait for about 50-70 seconds and the AI researcher will provide you 4 outputs:
 
