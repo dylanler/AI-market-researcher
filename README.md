@@ -51,3 +51,15 @@ Clone this repository.
 2. Run python app.py (or however you named the Python file containing this Gradio app).
 3. Open the link shown in the terminal to interact with the application.
 4. Please note: The actual Python filename and instructions may vary based on your specific setup and the name you give to the Python file.
+
+## How to Use
+
+### SEO Keyword Extractor
+
+1. Insert URL and pick the number of SEO keywords you want extracted from the web page.
+
+<img width="835" alt="seo_ss" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/7e6bde25-e0ca-40dc-b5dc-b8ea2f0984e7">
+
+2. Download a list of keywords as a csv file.
+
+<img width="212" alt="csv--ss" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/70166536-d45b-4c3a-a9e3-0625546c0149">
