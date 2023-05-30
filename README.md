@@ -18,7 +18,10 @@ Input your product and location in the textboxes. Click on 'Submit' to get the a
 
 Input the URL of a webpage and the number of keywords you want to extract. Click on 'Submit' to get a CSV file containing the SEO keywords.
 
-Installation
+## Live Demo
+URL: https://huggingface.co/spaces/django-ochain/AI-market-researcher
+
+## Installation
 This project requires Python 3.6+ and the following packages:
 
 - gradio
