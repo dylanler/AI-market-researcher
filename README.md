@@ -73,17 +73,92 @@ Clone this repository.
 
 2. Wait for about 50-70 seconds and the AI researcher will provide you 4 outputs:
 
-- Competitors
+1. Competitors
 - <img width="386" alt="ai-competitor" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/50898b3a-dbd0-485e-8605-e10d30a98089">
-- Competitor analysis
+2. Competitor analysis
 - <img width="358" alt="ai-comp2" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/8d009d2c-2add-4105-9c76-266363b8aac4">
-- Creative Insights
+3. Creative Insights
 - <img width="353" alt="creative-insights" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/6eaa6902-3a0a-4094-a868-425cab030b6c">
-- Business Plan
+4. Business Plan
 - <img width="352" alt="strat" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/71343ce1-adc3-441f-abcd-dffd56b2c864">
-- Location strategy & rationale
+5. Location strategy & rationale
 - <img width="352" alt="location-rationale" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/2cb8bdd3-575a-4a82-85bb-2af8aec2b77e">
 
+## Deploying the App using Amazon Web Services (AWS)
+Amazon Web Services (AWS) offers a variety of services for deploying applications, including EC2 for running virtual servers, EBS for block storage, and Elastic Beanstalk for deploying and scaling web applications and services developed with various languages. Here, we'll use Elastic Beanstalk to deploy our Gradio app.
 
+## Pre-requisites
+AWS Account: Before you begin, you need to have an AWS account. If you do not have one, you can create one here.
+
+AWS CLI: You will also need the AWS CLI (Command Line Interface) installed on your local machine. You can download it here.
+
+AWS Elastic Beanstalk CLI (EB CLI): This is a command-line interface for Elastic Beanstalk to deploy and manage applications. Install it following these instructions.
+
+Docker: As Gradio apps run in a Docker container, you need Docker installed on your machine. Get Docker here.
+
+## Steps to Deploy
+Prepare your application
+
+Your application should have a Dockerfile for running the application in a Docker container, and a requirements.txt file listing all the Python dependencies.
+
+Here's an example of a Dockerfile:
+
+```sql
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 7860
+CMD [ "python", "app.py" ]
+```
+
+## Initialize the Elastic Beanstalk application
+
+Navigate to your application's root directory in the terminal and run:
+
+```bash
+eb init -p docker
+```
+This will create a new Elastic Beanstalk Docker application.
+
+## Create an environment and deploy the application
+
+Now you can create an Elastic Beanstalk environment and deploy your application to it by running:
+
+```bash
+eb create gradio-app-env
+```
+Replace gradio-app-env with the name you want for your Elastic Beanstalk environment.
+
+## Open the application in a web browser
+
+After your application is deployed, you can open it in a web browser using:
+
+```bash
+eb open
+```
+Please note that deploying applications on AWS may incur charges. Make sure to terminate resources after use if you want to avoid continuous charges.
+
+## Cleaning Up
+To avoid incurring future charges, you can delete the resources you created for this app by terminating the Elastic Beanstalk environment:
+
+```bash
+eb terminate gradio-app-env
+```
+Remember to replace gradio-app-env with the name of your Elastic Beanstalk environment.
+
+You can also delete the application:
+
+```bash
+eb delete-app gradio-app
+```
+Again, replace gradio-app with the name of your Elastic Beanstalk application.
+
+For further details, refer to the official AWS Elastic Beanstalk Developer Guide.
 
 
