@@ -29,3 +29,22 @@ This project requires Python 3.6+ and the following packages:
 - langchain
 
 You can install these packages using pip:
+
+```bash
+pip install gradio bs4 openai requests pandas langchain
+```
+
+You also need to have API keys for Google Maps and OpenAI, which should be set as environment variables. In a Unix-like OS, you can do this by adding these lines to your shell profile file (.bashrc, .zshrc, etc.):
+
+```bash
+export OPENAI_API_KEY="your_openai_key"
+export GOOGLE_MAPS_API="your_google_maps_key"```
+```
+
+## Usage
+Clone this repository.
+
+1. Make sure you have all the required packages installed and API keys set up.
+2. Run python app.py (or however you named the Python file containing this Gradio app).
+3. Open the link shown in the terminal to interact with the application.
+4. Please note: The actual Python filename and instructions may vary based on your specific setup and the name you give to the Python file.
