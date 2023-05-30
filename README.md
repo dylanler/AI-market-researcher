@@ -18,6 +18,10 @@ Input your product and location in the textboxes. Click on 'Submit' to get the a
 
 Input the URL of a webpage and the number of keywords you want to extract. Click on 'Submit' to get a CSV file containing the SEO keywords.
 
+- Youtube Smart Q&A:
+
+Input the URL of a Youtube video and a question.  Click 'Submit' and the app will search through the video captions to find an answer from the video.
+
 ## Live Demo
 URL: https://huggingface.co/spaces/django-ochain/AI-market-researcher
 
@@ -30,11 +34,15 @@ This project requires Python 3.6+ and the following packages:
 - requests
 - pandas
 - langchain
+- pytube
+- youtube_transcript_api
+- chromadb
+- tiktoken
 
 You can install these packages using pip:
 
 ```bash
-pip install gradio bs4 openai requests pandas langchain
+pip install gradio bs4 openai requests pandas langchain youtube_transcript_api pytube chromadb tiktoken
 ```
 
 You also need to have API keys for Google Maps and OpenAI, which should be set as environment variables. In a Unix-like OS, you can do this by adding these lines to your shell profile file (.bashrc, .zshrc, etc.):
@@ -83,6 +91,23 @@ Clone this repository.
 - <img width="352" alt="strat" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/71343ce1-adc3-441f-abcd-dffd56b2c864">
 5. Location strategy & rationale
 - <img width="352" alt="location-rationale" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/2cb8bdd3-575a-4a82-85bb-2af8aec2b77e">
+
+### Youtube Smart Q&A
+
+### Find a Youtube video url and input it in the text box. Ask your question in the question text box.
+
+<img width="285" alt="samplevideo" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/01e24da5-1ce8-48ce-95cf-0e6a9f36c211">
+URL: https://www.youtube.com/watch?v=f20wXjWHh2o
+
+#### Sample Question 1
+
+<img width="943" alt="ans1" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/f66ec787-3110-4a0b-a465-3322fceea8c9">
+
+#### Sample Question 2
+
+<img width="944" alt="ans2" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/de5780e0-a587-426b-bece-14a7bd1467bc">
+
+---------------------------------------------------------------------------------------------
 
 ## Deploying the App using Amazon Web Services (AWS)
 Amazon Web Services (AWS) offers a variety of services for deploying applications, including EC2 for running virtual servers, EBS for block storage, and Elastic Beanstalk for deploying and scaling web applications and services developed with various languages. Here, we'll use Elastic Beanstalk to deploy our Gradio app.
