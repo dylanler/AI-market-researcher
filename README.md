@@ -2,11 +2,13 @@
 A multi-tabbed Gradio application that leverages the power of AI to provide detailed market research and SEO keyword extraction.
 
 ## Description
-This application has two main functionalities:
+This application has 3 main functionalities:
 
 AI Market Researcher: Given a product and a location, the AI Analyst researches nearby competitors, formulates a business plan to differentiate your product from competitors, and recommends a strategic location for your business.
 
 SEO Keyword Extractor: Given a URL and a number of desired keywords, the SEO Manager extracts valuable key phrases from the website text that are highly beneficial for SEO purposes. The output is provided as a downloadable CSV file.
+
+Youtube Smart Q&A: Given a URL and question, the app search through the video captions with AI and provides an answer to the user.
 
 ## How It Works
 
