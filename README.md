@@ -63,3 +63,22 @@ Clone this repository.
 2. Download a list of keywords as a csv file.
 
 <img width="212" alt="csv--ss" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/70166536-d45b-4c3a-a9e3-0625546c0149">
+
+
+### AI Market Researcher
+
+1. Input a product you want to research about and the location you would like to launch the product.
+
+
+
+2. Wait for about 50-70 seconds and the AI researcher will provide you 4 outputs:
+
+- Competitors<img width="386" alt="ai-competitor" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/50898b3a-dbd0-485e-8605-e10d30a98089">
+- Competitor analysis<img width="358" alt="ai-comp2" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/8d009d2c-2add-4105-9c76-266363b8aac4">
+
+- 
+- Creative Insights
+- Business Plan
+- Location strategy & rationale
+
+
