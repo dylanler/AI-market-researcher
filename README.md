@@ -74,15 +74,15 @@ Clone this repository.
 2. Wait for about 50-70 seconds and the AI researcher will provide you 4 outputs:
 
 - Competitors
-<img width="386" alt="ai-competitor" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/50898b3a-dbd0-485e-8605-e10d30a98089">
+- <img width="386" alt="ai-competitor" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/50898b3a-dbd0-485e-8605-e10d30a98089">
 - Competitor analysis
-<img width="358" alt="ai-comp2" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/8d009d2c-2add-4105-9c76-266363b8aac4">
+- <img width="358" alt="ai-comp2" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/8d009d2c-2add-4105-9c76-266363b8aac4">
 - Creative Insights
-<img width="353" alt="creative-insights" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/6eaa6902-3a0a-4094-a868-425cab030b6c">
+- <img width="353" alt="creative-insights" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/6eaa6902-3a0a-4094-a868-425cab030b6c">
 - Business Plan
-<img width="352" alt="strat" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/71343ce1-adc3-441f-abcd-dffd56b2c864">
+- <img width="352" alt="strat" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/71343ce1-adc3-441f-abcd-dffd56b2c864">
 - Location strategy & rationale
-<img width="352" alt="location-rationale" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/2cb8bdd3-575a-4a82-85bb-2af8aec2b77e">
+- <img width="352" alt="location-rationale" src="https://github.com/dylanler/AI-market-researcher/assets/9219358/2cb8bdd3-575a-4a82-85bb-2af8aec2b77e">
 
 
 
